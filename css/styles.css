@@ -1,0 +1,63 @@
+* {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+header h1 {
+    text-align: center;
+}
+
+.default h3 {
+    margin-left: 20px;
+}
+
+.default img {
+    width: 100%;
+    margin: 10px;
+}
+
+.champion {
+    display: flex;
+    justify-content: space-around;
+}
+
+.champions {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+.champions img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin: 10px 0;
+}
+
+nav {
+    background-color: rgb(64, 61, 61);
+}
+
+li {
+    display: inline-block;
+    width: 200px;
+    line-height: 2em;
+}
+
+ul {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+a {
+    color: rgb(114, 155, 250);
+    text-decoration: none;
+    display: block;
+}
